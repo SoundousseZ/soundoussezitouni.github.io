@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+h1 {
+  font-size: 4.375rem;
+  font-weight: 900;
+  letter-spacing: 0.3em;
+}
+
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.2em;
+
+}
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 1.75em;
+}
+
+
+h4 {
+  color: #C89446;
+  font-family: "Pinyon Script", serif;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+
+h5,
+strong {
+  margin: 0%;
+  font-weight: 600;
+  font-size: 1em;
+}
+
+
+h6 {
+  color: #C89446;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-top: 1%;
+  margin-bottom: 8%;
+}
+
+
+p {
+  color: #6F6F6F;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+
+a {
+  text-decoration: none;
+  transition: ease 0.3s;
+  color: #C89446;
+}
+
+
+
+hr {
+  width: 4%;
+  border: #C89446 1px solid;
+}
+
+
+svg {
+  transform: rotate(-90deg);
+}
+
+/* soulignement des lien see more et millieu de page*/
+.more:hover,
+#nav-menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: #C89446;
+  text-decoration-style: solid 2px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+
+
+/* dimension du header, placement du background photo */
+header {
+  width: 100%;
+  height: 55vh;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(53, 53, 53, 0.233)), url(../img/eggs.jpg) center center /cover no-repeat;
+  object-fit: cover;
+
+}
+
+
+
+/* taille nav bar */
+.navbar {
+  width: 45%;
+}
+
+/* block text du header */
+.title {
+  width: 100%;
+  height: auto;
+  margin-top: 13%;
+}
+
+/* premier backgroung (épice et orange) */
+.fond-1 {
+  background: fixed top 95px right 0px url(../img/oranges.jpg) no-repeat, fixed top 450px left 0px url(../img/spices.jpg) no-repeat;
+
+}
+
+
+/* padding entre image et le texte du premier article de la section discover */
+.burger-square {
+  padding-right: 10%;
+
+}
+
+/* padding entre image et le texte du deucième article de la section discover */
+.chicken {
+  padding-left: 10%;
+}
+
+/* deuxième nav */
+#nav-menu {
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+
+/* couleur du prix */
+.price {
+  color: #C89446;
+  font-size: 3em;
+  font-family: "Pinyon Script", serif;
+  margin: 0;
+}
+
+/* background reservation */
+#reservation {
+  background: no-repeat center left / cover url(../img/reservation.jpg);
+  height: 65vh;
+}
+
+
+/* carré mis en fond de section menu */
+#menu::before {
+  content: '';
+  position: absolute;
+  display: block;
+  right: 50%;
+  top: 50%;
+  width: 420px;
+  height: 420px;
+  border: solid 1px #C89446;
+  transform: translate(50%, 1190px) rotate(45deg);
+}
+
+.img-chief {
+  width: 100%;
+  height: auto;
+}
+
+/* formulaire prend 100% de largeur */
+form {
+  width: 100%;
+}
+
+
+/* taille des input*/
+.reserve {
+  width: 32%;
+  height: 4vh;
+}
+
+/* style select  */
+#person {
+  border-radius: 0;
+  appearance: none;
+  border: rgba(255, 255, 255, 0.5) solid 1px;
+  text-transform: uppercase;
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='10' height='15' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='white'/></g></svg>") no-repeat;
+  background-position: 95%;
+
+}
+
+/* bouton du formulaire */
+.button {
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: center;
+}
+
+
+/* image de fond + padding section recipe */
+#recipe {
+  background: no-repeat top left / 50vw auto url(../img/news-bg.jpg);
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+
+/* taille carte */
+.map {
+  width: 100%;
+  height: 45vh;
+}
+
+
+/* background couleur du footer */
+#foot-bar {
+  background: no-repeat bottom right url(../img/splash.png), #363636;
+}
+
+
+
+/* container du haeder */
+header .container {
+  width: 65%;
+  height: 55vh;
+  margin: auto;
+  padding-top: 1%;
+}
+
+
+/* couleur et taille de la nav bar */
+.navbar a {
+  color: white;
+  font-size: 1rem;
+  width: fit-content;
+
+}
+
+.navbar a:hover {
+  color: #C89446;
+}
+
+/* typologie welcome du header  */
+.title p {
+  text-transform: capitalize;
+  color: #C89446;
+  font-family: "Pinyon Script", serif;
+  font-size: 3.75rem;
+
+}
+
+/* dimension container première section */
+#discover .container {
+  width: 50%;
+  margin: auto;
+}
+
+
+/* placement du carré à gauche*/
+.burger-square .square {
+  border: #C89446 1px solid;
+  width: 250px;
+  height: 300px;
+  transform: translate(0%, -20px)
+}
+
+/* placement du carré à droite  */
+.chicken .square {
+  border: #C89446 1px solid;
+  width: 250px;
+  height: 300px;
+  transform: translate(0%, -20px)
+}
+
+/* dimension de hr section certified */
+#certified hr {
+  width: 3%;
+}
+
+/* dimension de paragraphe section certified */
+#certified p {
+  width: 60%;
+  margin-bottom: 4%;
+}
+
+/* typographie lien de la deuxième nav */
+#nav-menu a {
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+/* redimension des image de la section menu en carré */
+#menu img {
+  width: 150px;
+  height: 150px;
+}
+
+
+/* positionnement des articles par-dessus le carré */
+#menu article {
+  width: 47%;
+  height: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+/* container à l'interieur de section réservation */
+#reservation .container {
+  width: 50%;
+  height: 60vh;
+}
+
+/* dimension des input et select*/
+.reserve input,
+select {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: rgba(255, 255, 255, 0.5) solid 1px;
+  color: white;
+  font-weight: 400;
+  padding-left: 2%;
+}
+
+
+/*taille et fond de couleur du bouton */
+.button input {
+  width: 32%;
+  border: 0;
+  padding: 1% 4% 1% 4%;
+  background-color: #C89446;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: ease 0.3s;
+}
+
+
+.button input:hover {
+  background-color: transparent;
+}
+
+
+
+/* gras du text*/
+.recipes p {
+  font-weight: 100;
+}
+
+
+/*ligne séparateur de text de texte */
+.recipes hr {
+  width: 100%;
+  border: 0.5px solid rgba(111, 111, 111, 0.1);
+}
+
+
+/* carte prend la taille de la div*/
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* dimension du container dans le footer*/
+footer .container {
+  width: 60%;
+  height: auto;
+}
+
+
+/* taille des article du footer*/
+#foot-bar article {
+  width: 33%;
+}
+
+
+
+/* boutton reserver border et comblement de couleur au hover */
+.navbar a:nth-child(5) {
+  border: #C89446 solid 1px;
+  margin-left: 2%;
+  transition: ease 0.2s;
+}
+
+
+.navbar a:nth-child(5):hover {
+  background-color: #C89446;
+  color: white;
+}
+
+
+/* positionnement de l'image dans le carré burger */
+.burger-square .square img {
+  position: relative;
+  top: 8.333333%;
+  left: 8.333333%;
+}
+
+
+
+/* positionnement de l'image dans le carré chicken */
+.chicken .square img {
+  position: relative;
+  right: 8%;
+  top: 5%;
+}
+
+
+/* couleur et dimension paragraphe reservation */
+#reservation .container p {
+  width: 83%;
+  margin-bottom: 5%;
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* majuscule de sep*/
+.recipes p span {
+  text-transform: uppercase;
+}
+
+/*mise en gras du premier 29 */
+.recipes hr+p,
+.recipes p:first-child {
+  font-weight: bold;
+}
+
+
+/* couleur du texte dans footer*/
+#foot-bar article p,
+small {
+  color: white;
+  font-weight: 200;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+
+  h1 {
+    text-align: center;
+    font-size: 2.7em;
+  }
+
+
+  .container {
+    width: 90%;
+    padding: 2%;
+  }
+
+  .navbar {
+    width: 70%;
+    height: auto;
+  }
+
+
+  header .container {
+    width: 75%;
+    padding-top: 3%;
+  }
+
+  #discover .container {
+    width: 75%;
+    padding: 2%;
+  }
+
+  #reservation .container {
+    width: 90%;
+    padding: 2%;
+  }
+
+  /* redimension carré en fond de section menu */
+  #menu::before {
+    transform: translate(50%, 1200px) rotate(45deg);
+    width: 400px;
+    height: 400px;
+  }
+
+
+  /* paragrache de certified bio */
+  #certified p {
+    width: 100%;
+    padding: 1%;
+  }
+
+
+  /*  welcome du header*/
+  header .title p {
+    font-size: 3em;
+  }
+
+}
+
+
+
+
+@media screen and (max-width :768px) {
+
+  h1 {
+    font-size: 2.3em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  .container,
+  #discover .container,
+  #reservation .container {
+    width: 100%;
+    padding: 2%;
+  }
+
+  #reservation .container p {
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+  }
+
+  /* suppression bacjground */
+  .fond-1 {
+    background: none;
+  }
+
+
+  /* suppresion du padding*/
+  .burger-square,
+  .chicken {
+    padding: 0%;
+  }
+
+
+  /* Mise en colonne des articles */
+  #menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Alignement colonne de la section chief */
+  #chief {
+    flex-direction: column-reverse;
+  }
+
+
+  /* Bordure et dimension de l'image */
+  .img-chief {
+    border: #C89446 1px solid;
+    width: 60%;
+    height: auto;
+    margin: auto;
+  }
+
+
+  /* Mise en colonne des input */
+  .information {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* input prend toute la largeur */
+  .reserve,
+  button input {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  /* Suppression de margin */
+  .button {
+    margin-top: 0%;
+  }
+
+
+  header .container {
+    height: 45vh;
+  }
+
+
+  .button input,
+  #foot-bar .container {
+    width: 100%;
+  }
+
+
+
+  /* rticle discover mis en colonne */
+  #discover article {
+    flex-direction: column;
+  }
+
+
+  /* placement du carré centré*/
+  .burger-square .square,
+  .chicken .square {
+    transform: translate(0%, 0px)
+  }
+
+
+  /* Suppression du carré  */
+  #menu::before {
+    content: none;
+  }
+
+
+  /* alignement article à gauche */
+  #menu article {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  /* alignement du texte à gauche */
+  #menu article .text-right {
+    text-align: left;
+    margin-left: 5%;
+  }
+
+
+  header>.container nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  header>.container .title {
+    height: auto;
+    margin-top: 15%;
+  }
+
+  header .title p {
+    font-size: 2rem;
+  }
+
+
+  #discover article:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  /* image dans le carré */
+  .burger-square .square img {
+    position: static;
+
+  }
+
+  #discover article:nth-child(2) .square img {
+    position: static;
+
+  }
+
+}
+
+
+
+@media screen and (max-width :576px) {
+
+
+  header .container {
+    width: 100%;
+  }
+
+  #nav-menu {
+    width: 80%;
+  }
+
+
+  .navbar a {
+    font-size: 0.9em;
+  }
+
+
+  h2 {
+    font-size: 1em;
+  }
+
+}

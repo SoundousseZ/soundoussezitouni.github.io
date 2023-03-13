@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka');
+
+i{
+    color: #feefca;
+}
+
+
+h1{
+    font-size: 1em;
+    margin: 0%;
+    font-family: 'cinzel','sans-serif';
+}
+
+h2{
+    font-size: 1em;
+    margin: 0%;
+}
+
+
+main{
+    margin-top: 2%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+/* boutton let's chat*/
+.chat{
+    background-color:#BAE5CC;
+    width: 150px;
+    height: 35px;
+    box-shadow:2px 3px 5px rgba(4, 93, 47, 0.18);
+}
+
+/* conteneur image thumbnail */
+.profil{
+    background-color:#A2D9B8 ;
+    width: 150px;
+    height: 150px;
+}
+
+/* image thumbnail */
+.profil img{
+    width: 80%;
+    max-height:fit-content;
+}
+
+

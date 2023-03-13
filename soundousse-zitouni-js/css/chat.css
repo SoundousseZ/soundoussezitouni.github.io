@@ -1,0 +1,125 @@
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+h1{
+    font-size: 1.1em;
+    margin-bottom: 2%;
+    padding: 0%;
+}
+
+p{
+    font-size: 1.1em;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+/* profile thumbnail */
+.profil{
+    width: 100px;
+    height: 100px;
+   
+}
+/* profile thumbnail soundousse*/
+.profil-moi{
+    background-color:#A2D9B8 ;
+    padding-top: 5px;
+}
+/* profile thumbnail autre*/
+.profil-autre{
+    background-color:#FEEFCA;
+}
+
+/* conteneur chat*/
+#chat{
+    width: 95%;
+    padding:3% 5%;
+    height: 90%;
+    margin: auto;
+}
+
+/* block profile + message */
+#soundousse, #autre{
+    height:fit-content;
+}
+
+/* block message */
+.soundousse, .autre {
+    width: fit-content;
+    max-width: 45%;
+    padding: 1% 2%;
+    margin: 1%;
+    height: fit-content; 
+    border-radius: 30px;
+}
+
+.soundousse{
+    background-color:#F3D8E1 ;
+}
+
+.autre{
+    background-color:#BFEBE3 ;
+}
+
+
+button{
+    margin: 0 1%;
+    font-size: 3em;
+}
+
+
+button:nth-child(3),button:nth-child(4),button:nth-child(5),button:nth-child(6),button:nth-child(7),button:nth-child(8){
+    display: none;
+}
+
+
+.btn{
+    background-color:#A2D9B8;
+    border: none;
+    margin: 3px;
+}
+
+input{
+    color:black;
+}
+
+/* envoie nom */
+#yourName{
+    display: none;
+}
+
+.navbar-toggler i{
+    color: #FEEFCA;
+}
+
+.profil img{
+    width: 85%;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width :768px) {
+  
+    p,h1{
+        font-size: 0.9em;
+    }
+
+    #chat{
+        padding: 5% 0%;
+        height: 80%;
+    }
+
+    .profil{
+        display: none;
+    }
+
+    .soundousse, .autre{
+        max-width: 75%;
+        padding: 2% 4%;
+        margin-bottom: 2%;
+    }
+
+}

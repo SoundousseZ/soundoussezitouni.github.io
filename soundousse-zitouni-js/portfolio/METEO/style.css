@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300;700&display=swap');
+
+body{
+    background: rgb(39, 186, 202);
+   
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: 'Oswald';
+    color: white;
+    margin-bottom: 3%;
+}
+
+p{margin: 0;}
+
+#glass{
+    margin: 7% auto;
+    width: 80%;
+    height: 79vh;
+    border:solid rgba(155, 218, 222, 0.618) 1px;
+    border-radius: 50px;
+    font-family: 'roboto';
+    font-weight: 700;
+    background-color: rgba(121, 227, 239, 0.302);
+    backdrop-filter: blur(5px);
+  
+}
+
+@media screen and (max-width :576px){
+    #glass{
+        margin: 15% auto;
+    }
+}
+    

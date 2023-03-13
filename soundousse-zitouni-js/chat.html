@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundousse Zitouni</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="redketchup/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="redketchup/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="redketchup/favicon-16x16.png">
+    <link rel="manifest" href="redketchup/site.webmanifest">
+     <!--lien Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--lien CSS-->
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/chat.css">
+      <!--lien AOS-->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--lien fontawesome-->
+    <script src="https://kit.fontawesome.com/9751f70e32.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container mt-md-3">
+        <header>
+            <nav class="navbar navbar-expand-lg rounded">
+                <a class="navbar-brand  ms-2" href="index.html">Soundousse zitouni</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-regular fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end ps-2 pe-2" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link me-4" href="parcours.html">don't want to chat</a>
+                        <a class="nav-link " href="pdf/ZITOUNI_CV_Stage.pdf">Download cv</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main class="container mt-md-3 p-lg-4 rounded">
+
+            <section id="chat" class="overflow-auto">
+
+                <div id="soundousse" class="d-flex flex-row">
+                    <!-- thumbnail profile-->
+                    <div class=" profil profil-moi rounded-circle text-center me-4 mt-1">
+                        <img src="img/chat.png" alt="chat">
+                    </div>
+                    <!-- bulle text-->
+                    <div id="text1" class="soundousse">
+                        <p class="mb-0 d-inline col-auto ">Hello !<br>
+                            Bienvenue sur mon site web. Je m’appelle Soundousse Zitouni. Je suis en formation de
+                        </p>
+                        <h1 class="d-inline col-auto">développeur Web et Mobile à l’AFPA</h1>
+                    </div>
+                </div>
+            </section>
+
+
+            <div> <!--Bouton chat-->
+                <div id="reponse" class="row justify-content-end me-2">
+                    <button type="button" class=" col-auto btn btn-success">
+                        C’est super! Je veux en savoir plus.
+                    </button>
+                    <button type="button" class="btn btn-success col-11 col-md-auto">
+                        Ça a l'air intéressant mais je n’ai pas le temps de discuter avec toi.
+                    </button>
+                    <button type="button" class="btn btn-success col-11   col-lg-auto">
+                        Où t’es-tu formée et quel diplôme as-tu?
+                    </button>
+                    <button type="button" class="btn btn-success col-11   col-lg-auto">
+                        Parle moi de tes compétences.
+                    </button>
+                    <button type="button" class="btn btn-success col-11   col-lg-auto">
+                        Intéressant , quels sont les skills que tu as acquis au cours de ton parcours ?
+                    </button>
+                    <button type="button" class="btn btn-success col-11   col-lg-auto">
+                        Intéressant, j’aimerais en connaitre plus sur ton parcours de formation.
+                    </button>
+                    <button type="button" class="btn btn-success col-11   col-lg-auto">
+                        D’accord, maintenant je souhaite voir de quoi tu es capable, as-tu un portfolio avec quelques un
+                        de tes projets?
+                    </button>
+                    <button type="button" class="btn btn-success col-11   col-lg-auto">
+                        Tu peux compter sur moi pour consulter tes réalisations 😉.
+                    </button>
+                    <form id="yourName" class=" col-11   col-lg-auto">
+                        <input type="text" class="rounded" id="name" required>
+                        <button type="button" id="send" class="btn btn-success">Send</button>
+                    </form>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+
+    <!--Script javascript-->
+    <script src="js/main.js"></script>
+    <!--Script Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--script aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1200,
+      })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/redketchup/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/redketchup/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/redketchup/favicon-16x16.png">
+    <link rel="manifest" href="/redketchup/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Soundousse Zitouni - Bootstrap</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <h1 class="fs-6 fst-normal text-dark px-2 pt-2">Salma Felouki</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">A propos</a>
+                        <a class="nav-item nav-link" href="#">Compétancess</a>
+                        <a class="nav-item nav-link" href="#">Réalisations</a>
+                        <a class="nav-item nav-link " href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="h-50">
+            <img src="img/social-media.jpg" class="img-fluid" alt="photo principale">
+        </div>
+
+    </header>
+
+    <main>
+        <section class="bg-light pb-5">
+            <!-- Ouverture container flex box center -->
+            <div class="container-lg">
+                <div class="row justify-content-center align-items-center">
+                    <!-- positionnement image -->
+                    <div class="col-12 col-lg-4 ">
+                        <img src="img/development.png" class="img-fluid" alt="coding">
+                    </div>
+                    <!-- positionnement block texte -->
+                    <div class="col-12 col-lg-4  offset-lg-1">
+                        <h2 class="text-info">Qui suis-je</h2>
+                        <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In ipsa
+                            odio
+                            similique omnis
+                            quas, adipisicing elit. Enim nemo rem molestias
+                        </p>
+                        <p class="text-secondary">distinctio sapiente inventore corporis facilis veniam
+                            quidem provident, delectus aut doloribus suscipit aliquid dolorem, nam aperiam repellat
+                            eligendi
+                        </p>
+                        <!-- bouton cv -->
+                        <a class="btn btn-primary" href="pdf/CV.pdf" download="mon CV">Télècharger mon CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <!--positionnement + padding + couleur du titre -->
+                <h2 class="text-center text-info p-3">Mes compétances</h2>
+                <!-- bar progress au centre -->
+                <div class="row justify-content-center mb-5">
+                    <!-- Premiere colone -->
+                    <div class="col-lg-4">
+                        <h3>Font</h3>
+                        <div class="text-secondary pb-4">
+                            <div>
+                                <small>HTML/CSS</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <small>Javascript</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="text-secondary">
+                                <small>Angular</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small>Bootstrap</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"
+                                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Deuxiéme colone -->
+                    <div class="col-lg-4 offset-lg-1">
+                        <h3>Back</h3>
+                        <div class="text-secondary">
+                            <div>
+                                <small>PHP</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small>SQL</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%"
+                                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small>Symfony</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
+                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <small>Node.Js</small>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 10%"
+                                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light pb-5"> <!--couleur et paddind bas de section -->
+            <div class="container">
+                <!--positionnement + padding + couleur du titre -->
+                <h2 class="text-center p-4 text-info">Mes réalisations</h2>
+                <!-- container de toute les card -->
+                <div class="row justify-content-center text-secondary">
+                    <!-- Card 1 -->
+                    <div class="card ms-4" style="width: 14rem;">
+                        <img src="img/store.png" class="card-img-top" alt="store">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Site prestashop</h3>
+                            <p class="card-text text-muted">Some quick example text to build on the card
+                                title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Voir le site</a>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card ms-4" style="width: 14rem;">
+                        <img src="img/store.png" class="card-img-top" alt="store">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Site prestashop</h3>
+                            <p class="card-text text-muted">Some quick example text to build on the card
+                                title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Voir le site</a>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card ms-4" style="width: 14rem;">
+                        <img src="img/store.png" class="card-img-top" alt="store">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Site prestashop</h3>
+                            <p class="card-text text-muted">Some quick example text to build on the card
+                                title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Voir le site</a>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="card ms-4" style="width: 14rem;">
+                        <img src="img/store.png" class="card-img-top" alt="store">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Site prestashop</h3>
+                            <p class="card-text text-muted">Some quick example text to build on the card
+                                title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Voir le site</a>
+                        </div>
+                    </div>
+                    <!--fin container card-->
+                </div>
+                <!--fin contairer section-->
+            </div>
+        </section>
+
+        <section class="pb-3"><!-- Padding fin de section-->
+            <!-- ouverture container-->
+            <div class="container">
+                <!-- style et potisition du titre-->
+                <h2 class="text-center text-info p-4">Me contacter</h2>
+                <!-- ouverture form-->
+                <form class="mx-2 mx-lg-0" method="post" action="">
+                    <!--nom-->
+                    <div class="form-group row justify-content-center my-2">
+                        <div class="col-lg-9 p-0 mb-1 text-secondary">
+                            <label for="nom">Nom</label>
+                        </div>
+                        <input type="text" class="nom col-lg-9" id="nom">
+                    </div>
+                    <!--prenom-->
+                    <div class="form-group row justify-content-center my-2">
+                        <div class="col-lg-9 p-0 mb-1 text-secondary">
+                            <label for="prenom">Prénom</label>
+                        </div>
+                        <input type="text" class="prenom col-lg-9" id="prenom">
+                    </div>
+                    <!--objet-->
+                    <div class="form-group row justify-content-center my-2">
+                        <div class="col-lg-9 p-0 mb-1 text-secondary">
+                            <label for="Objet">Objet</label>
+                            <select class="form-select col-9" id="Objet">
+                                <option selected>Demande de renseignements</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--textarea-->
+                    <div class="form-group row justify-content-center my-2">
+                        <div class="col-lg-9 p-0 mb-1 text-secondary">
+                            <label for="textarea">Example textarea</label>
+                        </div>
+                        <textarea class="col-lg-9" id="textarea" rows="3"></textarea>
+                    </div>
+                    <!--bouton-->
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9 p-0 mt-3">
+                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-secondary">
+        <div class="d-flex flex-row justify-content-center text-primary">
+            <!--icon twitter-->
+
+            <div class="my-4 mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg>
+            </div>
+
+            <!--icon linkedin-->
+            <div class="my-4 mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg>
+            </div>
+
+            <!--icon twitter-->
+            <div class="my-4 mx-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

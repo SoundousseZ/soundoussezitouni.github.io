@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Inter:wght@200&family=Libre+Baskerville&family=Major+Mono+Display&family=Noto+Serif&family=Vidaloka&display=swap');
+
+* {
+    font-family: 'vidaloka';
+ 
+}
+
+h2 {
+    text-align: center;
+    margin: 5%;
+    text-transform: capitalize;
+    font-size: 1.7em;
+    color: #63AA84;
+}
+
+h3 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: #feefca;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+}
+
+img {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 80%;
+}
+
+
+body {
+    background-color: #ECF8F6;
+}
+
+main .container{
+    padding: 5% 8%;
+}
+
+main {
+    background-color: #dbf2db;
+}
+
+
+section{
+    margin-top: 10%;
+}
+
+
+.navbar {
+    background-color: #BAE5CC;
+    text-transform: uppercase;
+    box-shadow: 2px 3px 5px rgba(45, 111, 127, 0.182);
+}
+
+
+.navbar-brand {
+    color: #feefca;
+    font-size: 1.15em;
+}
+
+
+.navbar-brand:hover {
+    color: #feefca;
+}
+
+
+.nav-link {
+    color: white;
+}
+
+
+.nav-link:hover {
+    color: #feefca;
+}
+
+
+.navbar-toggler{
+    border: none;
+}
+
+/* phrase d'en-tête */
+.catch-phrase {
+    font-size: 3.4em;
+    line-height: 1em;
+    color: #63AA84;
+}
+
+/* introduction */
+.introduction,
+h1 {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.395); 
+}
+
+/* icone de contact*/
+.icone {
+    background-color: #BAE5CC;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.077);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+/* section formations et diplome */
+#formation {
+    width: 60%;
+    margin: auto;
+}
+
+
+.date {
+    text-transform: uppercase;
+    color: #A0DCB8;
+    font-size: 2.4em;
+}
+
+
+/* menu skills */
+#nav-menu a {
+    color: rgb(132, 190, 156);
+}
+
+
+#nav-menu a:first-child {
+    border-bottom: #ff6f6f73 solid 1px;
+}
+
+/* conteneur li */
+.list {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+/* li skills */
+.skills {
+    background: rgba(186, 230, 204, 0.29);
+    box-shadow: 0px 4px 4px rgba(72, 120, 94, 0.27);
+    text-transform: uppercase;
+    padding: 2% 4%;
+    margin: 2%;
+    color: #ff6f6f73;
+}
+
+
+#soft, #back-end {
+    display: none;
+}
+
+/* portfolio */
+.portfolio {
+    border-radius: 50px;
+    padding: 2% 3%;
+    margin-bottom: 2%;
+
+}
+
+#fiasco {
+    background-color: rgb(192, 231, 208);
+}
+
+#meteo {
+    background: rgba(235, 208, 208, 0.851);
+}
+
+#site-cv {
+    background: rgba(199, 238, 240, 0.835);
+
+}
+
+
+#projet p {
+    font-size: 1.1em;
+    line-height: 9px;
+}
+
+#fiasco h3 {
+    color: #176166;
+}
+
+#meteo h3 {
+    color: #D02D5E;
+}
+
+#site-cv h3 {
+    color: #3d5b88;
+}
+
+
+#projet p span {
+    font-size: 0.9em;
+}
+
+
+
+
+@media screen and (max-width :768px) {
+
+    .container {
+        padding: 0%;
+    }
+
+    main{
+       padding: 1%;
+       height: auto;
+
+    }
+
+    .catch-phrase{
+        font-size: 2.7em;
+    }
+
+    img{
+        display: none;
+    }
+
+    .date{
+        font-size: 1.7em;
+    }
+
+    #formation{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .list{
+        width: 100%;
+    }
+
+    .portfolio{
+        padding: 4% 6%;
+    }
+}
